@@ -15,8 +15,8 @@ client.once('ready', () => {
 client.on('messageCreate', message => {
   if (message.author.bot) return;
 
-  if (message.content === '!hello') {
-    message.channel.send('Сайн уу! Би бэлэн байна.');
+  if (message.content === `!hello`) {
+    message.channel.send(`Сайн уу! Би бэлэн байна.`);
   }
     if (message.content === '!hi') {
     message.channel.send('Сайн уу! Би бэлэн байна.');
